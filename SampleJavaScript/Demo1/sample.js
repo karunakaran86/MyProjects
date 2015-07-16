@@ -5,7 +5,10 @@ document.write("the password typed is "+password)*/
 document.getElementById("display").innerHTML=username;
 var x=5;
 var y=7;
+console.log(x,y);
 var z=x*y;
+console.log(z);
+
 document.getElementById("result").innerHTML=z;
 
 
@@ -17,6 +20,7 @@ document.getElementById("testing").innerHTML = person.name+"is"+person.age + "ye
 function wish(){
 	var greeting;
 	var time=new Date().getHours();
+	debugger;
 	if (time < 10)
 	{
 		greeting="Good Morning";
