@@ -13,7 +13,11 @@ document.getElementById("result").innerHTML=z;
 
 
 
-var person={name:"John",age:28 ,weight:201};
+var person={
+	name: "John",
+	age: 28 ,
+	weight: 201
+};
 document.getElementById("testing").innerHTML = person.name+"is"+person.age + "years old";
  }
 
@@ -32,3 +36,17 @@ function wish(){
 	}
 	document.getElementById("wish").innerHTML=greeting;
 }
+/*
+function jsonSample{
+	var text = '{"employees":[' +
+'{"firstName":"John","lastName":"Doe" },' +
+'{"firstName":"Anna","lastName":"Smith" },' +
+'{"firstName":"Peter","lastName":"Jones" },'+
+'{"firstName":"Tim", "lastName":"Cook"}]}';
+
+obj = JSON.parse(text);
+document.getElementById("sampleJsonParsing").innerHTML =
+obj.employees[0].firstName + " " + obj.employees[0].lastName;
+ }*/
+
+ 
